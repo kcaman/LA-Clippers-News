@@ -1,0 +1,131 @@
+@import url(http://fonts.googleapis.com/css?family=Antic+Slab);
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,300|Roboto+Slab:400,300,100);
+@import url(http://fonts.googleapis.com/css?family=Tienne|Oxygen:400,300);
+
+
+//Body Default
+body{
+	width: 100%;
+}
+
+
+//Header Styles
+
+.main_header{
+	width: 100%;
+	padding: 0;
+	font-family: 'Tienne', sans-serif;
+
+	background: rgba(0, 94, 255, 1);
+	overflow: auto;
+	-webkit-box-shadow: 1px 1px 2px black;
+	-moz-box-shadow: 1px 1px 2px black;
+	box-shadow: 1px 1px 2px black;
+	white-space: nowrap;
+	h1{
+		margin-left: 1.83%;
+		text-transform: uppercase;
+		-webkit-text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+		-moz-text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+		text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+		color: white;
+		margin-bottom: -10px;
+	}
+	h2{
+		margin-left: 15%;
+		font-size: 12px;
+		color: rgba(255, 255, 255, 0.9);
+		-webkit-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+		-moz-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	}
+	.center{
+		width: 79.3%;
+		margin: 0 auto;
+		padding: 0 1.5555%;
+		padding-bottom: 20px;
+	}
+}
+
+.content{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: -5px;
+	.target{
+		width: 85%;
+		margin: 0 auto;
+		padding: 20px 1.5555%;
+		font: 1em "Antic Slab", serif;
+		overflow: auto;
+		h1{
+			font-family: 'Oxygen', sans-serif;
+			font-weight: 300;
+		}
+		a{
+			text-decoration:none;
+			color: rgba(255, 24, 24, 1);
+			font-weight: bold;
+		}
+	}
+	img{
+		float:right;
+		margin: 10px 3%;
+		max-width:100%;
+	}
+}
+
+@media (max-width: 568px) {
+	.content {
+		width: 480px;
+		img{
+			float:none;
+			display:block;
+			margin: 10px auto;
+		}
+		.target{
+			width:90%;
+		}
+	}
+	.main_header{
+		.center{
+			width: 480px;
+			font-size: 15px;
+			h1, h2{
+				-webkit-text-shadow:none;
+				-moz-text-shadow:none;
+				text-shadow:none;
+
+				font-family: 'Roboto Slab', sans-serif;
+				font-weight: 300;
+			}
+			h2{
+				font-weight: 400;
+				margin-left: 50px;
+			}
+		}
+	}
+}
+
+@media (max-width: 320px){
+	.content{
+		width: 100%;
+		padding: 0;
+		.target{
+			width: 90%;
+			margin-top: -20px;
+		}
+	}
+	.main_header{
+		.center{
+			width:320px;
+			margin-left: -10px;
+			padding: 0 10px;
+			padding-bottom:13px;
+			white-space: normal;
+			h1{
+
+				margin-left: 20px;
+			}
+		}
+	}
+}

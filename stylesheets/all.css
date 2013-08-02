@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Antic+Slab);
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,300|Roboto+Slab:400,300,100);
+@import url(http://fonts.googleapis.com/css?family=Tienne|Oxygen:400,300);
+/* line 7, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+body {
+  width: 100%; }
+
+/* line 14, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+.main_header {
+  width: 100%;
+  padding: 0;
+  font-family: 'Tienne', sans-serif;
+  background: #005eff;
+  overflow: auto;
+  -webkit-box-shadow: 1px 1px 2px black;
+  -moz-box-shadow: 1px 1px 2px black;
+  box-shadow: 1px 1px 2px black;
+  white-space: nowrap; }
+  /* line 25, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+  .main_header h1 {
+    margin-left: 1.83%;
+    text-transform: uppercase;
+    -webkit-text-shadow: 1px 1px 2px black;
+    -moz-text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+    margin-bottom: -10px; }
+  /* line 34, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+  .main_header h2 {
+    margin-left: 15%;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.9);
+    -webkit-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); }
+  /* line 42, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+  .main_header .center {
+    width: 79.3%;
+    margin: 0 auto;
+    padding: 0 1.5555%;
+    padding-bottom: 20px; }
+
+/* line 50, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+.content {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: -5px; }
+  /* line 54, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+  .content .target {
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px 1.5555%;
+    font: 1em "Antic Slab", serif;
+    overflow: auto; }
+    /* line 60, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+    .content .target h1 {
+      font-family: 'Oxygen', sans-serif;
+      font-weight: 300; }
+    /* line 64, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+    .content .target a {
+      text-decoration: none;
+      color: #ff1818;
+      font-weight: bold; }
+  /* line 70, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+  .content img {
+    float: right;
+    margin: 10px 3%;
+    max-width: 100%; }
+
+@media (max-width: 568px) {
+  /* line 78, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+  .content {
+    width: 480px; }
+    /* line 80, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+    .content img {
+      float: none;
+      display: block;
+      margin: 10px auto; }
+    /* line 85, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+    .content .target {
+      width: 90%; }
+
+  /* line 90, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+  .main_header .center {
+    width: 480px;
+    font-size: 15px; }
+    /* line 93, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+    .main_header .center h1, .main_header .center h2 {
+      -webkit-text-shadow: none;
+      -moz-text-shadow: none;
+      text-shadow: none;
+      font-family: 'Roboto Slab', sans-serif;
+      font-weight: 300; }
+    /* line 101, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+    .main_header .center h2 {
+      font-weight: 400;
+      margin-left: 50px; } }
+@media (max-width: 320px) {
+  /* line 110, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+  .content {
+    width: 100%;
+    padding: 0; }
+    /* line 113, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+    .content .target {
+      width: 90%;
+      margin-top: -20px; }
+
+  /* line 119, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+  .main_header .center {
+    width: 320px;
+    margin-left: -10px;
+    padding: 0 10px;
+    padding-bottom: 13px;
+    white-space: normal; }
+    /* line 125, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+    .main_header .center h1 {
+      margin-left: 20px; } }
