@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var urls, count;
 
 function start(){
@@ -100,3 +101,6 @@ $(document).ready(function(){
 	var target = $('.target');
 	start();
 });
+=======
+//= require_tree .
+>>>>>>> master

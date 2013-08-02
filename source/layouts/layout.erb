@@ -5,6 +5,7 @@
     
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<<<<<<< HEAD
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     
     <!-- Use title if it's in the page YAML frontmatter -->
@@ -12,11 +13,18 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 	
+=======
+    
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "The Middleman" %></title>
+    
+>>>>>>> master
     <%= stylesheet_link_tag "normalize", "all" %>
     <%= javascript_include_tag  "all" %>
   </head>
   
   <body class="<%= page_classes %>">
+<<<<<<< HEAD
 	  <header class="main_header">
 		 	<div class="center">
 	  			<h1>Los Angeles Clippers News</h1>
@@ -25,6 +33,8 @@
 			</div>
 	  </header><!-- .main_header -->
 	  
+=======
+>>>>>>> master
     <%= yield %>
   </body>
 </html>
