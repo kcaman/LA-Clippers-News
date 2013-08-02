@@ -20,6 +20,7 @@ body{
 	-webkit-box-shadow: 1px 1px 2px black;
 	-moz-box-shadow: 1px 1px 2px black;
 	box-shadow: 1px 1px 2px black;
+	white-space: nowrap;
 	h1{
 		margin-left: 1.83%;
 		text-transform: uppercase;
@@ -77,6 +78,9 @@ body{
 		display:block;
 		margin: 10px auto;
 	}
+	.main_header{
+		white-space: normal;
+	}
 }
 
 @media (max-width: 400px){
@@ -90,10 +94,9 @@ body{
 	}
 	.main_header{
 		.center{
-			width:85%;
+			width:320px;
 			margin-left: -6px;
 			padding: 0 10px;
-			white-space: normal;
 			h1{
 				margin-left: 20px;
 			}
