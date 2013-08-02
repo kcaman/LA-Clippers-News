@@ -71,27 +71,23 @@ body {
   .content img {
     float: none;
     display: block;
-    margin: 10px auto; }
-
-  /* line 82, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
-  .main_header .center h1, .main_header .center h2 {
-    white-space: nowrap; }
-  /* line 86, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
-  .main_header .center h1 {
-    font-size: 24px;
-    margin-left: .5%; } }
+    margin: 10px auto; } }
 @media (max-width: 400px) {
-  /* line 95, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+  /* line 83, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
   .content {
     width: 100%;
     padding: 0; }
-    /* line 98, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+    /* line 86, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
     .content .target {
       width: 90%;
       margin-top: -20px; }
 
-  /* line 104, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+  /* line 92, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
   .main_header .center {
     width: 85%;
     margin-left: -6px;
-    padding: 0 10px; } }
+    padding: 0 10px;
+    white-space: normal; }
+    /* line 97, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+    .main_header .center h1 {
+      margin-left: 20px; } }
