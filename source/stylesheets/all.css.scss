@@ -90,3 +90,21 @@ body{
 		}
 	}
 }
+
+@media (max-width: 400px){
+	.content{
+		width: 100%;
+		padding: 0;
+		.target{
+			width: 90%;
+			margin-top: -20px;
+		}
+	}
+	.main_header{
+		.center{
+			width:85%;
+			margin-left: -6px;
+			padding: 0 10px;
+		}
+	}
+}
