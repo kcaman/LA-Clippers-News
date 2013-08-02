@@ -109,7 +109,9 @@ body {
   .main_header .center {
     width: 320px;
     margin-left: -10px;
-    padding: 0 10px; }
-    /* line 123, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
+    padding: 0 10px;
+    padding-bottom: 13px;
+    white-space: normal; }
+    /* line 125, /Users/3ps14/Documents/WebDesign/Work in progress/LA-Clippers-News/source/stylesheets/all.css.scss */
     .main_header .center h1 {
       margin-left: 20px; } }
