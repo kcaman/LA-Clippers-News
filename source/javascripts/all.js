@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var urls, count;
 
 function start(){
