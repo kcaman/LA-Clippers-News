@@ -2,14 +2,12 @@
 @import url(http://fonts.googleapis.com/css?family=Oxygen:400,300|Roboto+Slab:400,300,100);
 @import url(http://fonts.googleapis.com/css?family=Tienne|Oxygen:400,300);
 
-
-//Body Default
 body{
 	width: 100%;
 }
 
 
-//Header Styles
+/* Header Styles */
 
 .main_header{
 	width: 100%;
@@ -94,7 +92,6 @@ body{
 				-webkit-text-shadow:none;
 				-moz-text-shadow:none;
 				text-shadow:none;
-
 				font-family: 'Roboto Slab', sans-serif;
 				font-weight: 300;
 			}
@@ -123,7 +120,6 @@ body{
 			padding-bottom:13px;
 			white-space: normal;
 			h1{
-
 				margin-left: 20px;
 			}
 		}
